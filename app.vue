@@ -1,8 +1,5 @@
 <script setup>
 const colorMode = useColorMode()
-function toggleDarkMode() {
-  document.documentElement.classList.toggle("dark-mode")
-}
 </script>
 <template>
   <div>
@@ -29,7 +26,9 @@ function toggleDarkMode() {
             alt="Sunset in the mountains"
           />
           <div class="px-6 py-4 pb-2">
-            <div class="font-bold text-xl mb-2 dark:text-white">The Coldest Sunset</div>
+            <div class="font-bold text-xl mb-2 dark:text-p-primary-200">
+              The Coldest Sunset
+            </div>
             <p class="text-gray-700 dark:text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
               nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
@@ -48,8 +47,8 @@ function toggleDarkMode() {
       </div>
     </div>
 
-    <Button severity="success" label="Toggle Dark Mode" @click="toggleDarkMode()" />
-    <Button label="Toggle Dark Mode" @click="toggleDarkMode()" />
+    <Button severity="success" label="Success" />
+    <Button label="Default" />
 
     <div class="flex flex-col gap-2 xs:flex-row sm:gap-4">
       <div class="box">01</div>
