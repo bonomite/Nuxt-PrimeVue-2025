@@ -58,7 +58,7 @@ const colorMode = useColorMode()
   </div>
 </template>
 
-<style lang="scss" scopped>
+<style lang="scss">
 h1 {
   @apply text-3xl font-bold underline;
 }
