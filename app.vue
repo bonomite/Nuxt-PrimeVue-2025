@@ -58,11 +58,21 @@ const colorMode = useColorMode()
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scopped>
 h1 {
   @apply text-3xl font-bold underline;
 }
 .box {
   @apply p-2 bg-red-700 dark:bg-red-300 rounded-lg w-20 text-center text-p-primary-100 dark:text-black;
+}
+.badge {
+  @apply inline-block bg-gray-200 dark:bg-gray-950 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-400;
+  &:hover {
+    @apply bg-gray-300;
+  }
+}
+
+.dark-mode .force-light {
+  @apply bg-gray-200 text-gray-700;
 }
 </style>
