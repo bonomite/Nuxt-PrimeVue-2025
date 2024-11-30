@@ -5,12 +5,16 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@primevue/nuxt-module', '@nuxtjs/tailwindcss'],
   css: ['~/src/assets/main.css'],
-  postcss: {
-    plugins: {
-      'postcss-import': {},
-      tailwindcss: {},
-      autoprefixer: {},
-    },
+  // postcss: {
+  //   plugins: {
+  //     'postcss-import': {},
+  //     tailwindcss: {},
+  //     autoprefixer: {},
+  //   },
+  // },
+  tailwindcss: {
+    // Options
+    editorSupport: true,
   },
   primevue: {
     options: {

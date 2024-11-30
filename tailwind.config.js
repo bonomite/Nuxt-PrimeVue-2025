@@ -1,20 +1,31 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./app.vue",
+    "./error.vue",
+  ],
   theme: {
+    darkMode: ['selector', '[class*="dark"]'],
     extend: {
-      darkMode: ['selector', '[class*="app-dark"]'],
+      //darkMode: ['selector', '[data-mode="dark"]'],
+
       colors: {
-        'p-primary-color': {
-          100: '#00ff00',
-          200: '#ff0000',
-          300: '#ff0000',
-          400: '#ffff00',
-          500: '#ff0000',
-          600: '#ff0000',
-          700: '#ff0000',
-          800: '#ff0000',
-          900: '#ff0000',
+        'p-primary': {
+          50: '#e4f2fd',
+          100: '#d0e5f6',
+          200: '#a2cbed',
+          300: '#74b2e4',
+          400: '#4698db',
+          500: '#187fd3',
+          600: '#1365a8',
+          700: '#0e4c7e',
+          800: '#093254',
+          900: '#04192a',
+          950: '#020d16',
         },
       },
       screens: {
