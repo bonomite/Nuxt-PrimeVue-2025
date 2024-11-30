@@ -29,8 +29,8 @@
 
 /* Light */
 :root,[data-style-mode='light'],
-.light {
-   /*  color-scheme: light;  */
+.light-mode {
+    color-scheme: light; 
     --p-primary-color: var(--p-primary-500);
     --p-primary-contrast-color: var(--p-surface-0);
     --p-primary-hover-color: var(--p-primary-600);
@@ -48,8 +48,8 @@
     --p-text-hover-muted-color: var(--p-surface-600);
 }
 /* @media (prefers-color-scheme: dark) { */
-[data-style-mode='dark'], .dark{
-    /* color-scheme: dark;  */
+[data-style-mode='dark'], .dark-mode{
+    color-scheme: dark; 
     --p-primary-color: var(--p-primary-400);
     --p-primary-contrast-color: var(--p-surface-900);
     --p-primary-hover-color: var(--p-primary-300);
