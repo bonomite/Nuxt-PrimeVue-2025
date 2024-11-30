@@ -5,13 +5,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@primevue/nuxt-module', '@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
   css: ['~/src/assets/main.css'],
-  // postcss: {
-  //   plugins: {
-  //     'postcss-import': {},
-  //     tailwindcss: {},
-  //     autoprefixer: {},
-  //   },
-  // },
   tailwindcss: {
     // Options
     editorSupport: true,
@@ -28,7 +21,7 @@ export default defineNuxtConfig({
       // },
       pt: {
         button: {
-          label: { class: 'text-xs' }
+          label: { class: 'italic text-xl' }
         }
       }
     },

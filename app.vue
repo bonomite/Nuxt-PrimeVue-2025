@@ -50,7 +50,7 @@ const colorMode = useColorMode()
     <Button severity="success" label="Success" />
     <Button label="Default" />
 
-    <div class="flex flex-col gap-2 xs:flex-row sm:gap-4">
+    <div class="flex flex-col gap-2 xs:flex-row sm:gap-9">
       <div class="box">01</div>
       <div class="box">02</div>
       <div class="box">03</div>
@@ -63,6 +63,6 @@ h1 {
   @apply text-3xl font-bold underline;
 }
 .box {
-  @apply p-2 bg-red-700 dark:bg-red-300 rounded-lg w-20 text-center text-p-primary-100;
+  @apply p-2 bg-red-700 dark:bg-red-300 rounded-lg w-20 text-center text-p-primary-100 dark:text-black;
 }
 </style>
