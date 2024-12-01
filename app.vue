@@ -60,7 +60,7 @@ const colorMode = useColorMode()
 
 <style lang="scss">
 h1 {
-  @apply text-3xl font-bold underline;
+  @apply text-3xl font-bold underline dark:text-red-200;
 }
 .box {
   @apply p-2 bg-red-700 dark:bg-red-300 rounded-lg w-20 text-center text-p-primary-100 dark:text-black;
