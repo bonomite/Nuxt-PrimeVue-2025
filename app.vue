@@ -46,7 +46,6 @@ const colorMode = useColorMode()
         </div>
       </div>
     </div>
-
     <Button severity="success" label="Success" />
     <Button label="Default" />
 

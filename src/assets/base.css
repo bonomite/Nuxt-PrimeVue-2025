@@ -66,3 +66,8 @@
     --p-text-muted-color: var(--p-surface-400);
     --p-text-hover-muted-color: var(--p-surface-300);
     }
+
+
+    .p-button .button-label{
+        @apply italic;
+    }

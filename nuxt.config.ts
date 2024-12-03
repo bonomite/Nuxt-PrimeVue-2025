@@ -13,17 +13,6 @@ export default defineNuxtConfig({
     options: {
       ripple: true,
       theme: 'none',
-      // theme: {
-      //   preset: Aura,
-      //   options: {
-      //     darkModeSelector: '.my-app-dark',
-      //   },
-      // },
-      pt: {
-        button: {
-          label: { class: 'italic text-xl' }
-        }
-      }
     },
-  }
+  },
 })
